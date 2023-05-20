@@ -1,0 +1,39 @@
+img.octocat {
+    height: 200px;
+}
+h1,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 67, 77);
+    margin: 10px 0px;
+}
+.container{
+    width: 780px;
+    border-top: 5px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    flex-direction: row;
+    padding-bottom: 1px;
+    background-color: rgb(210, 224, 231);
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(126, 204, 240);
+    margin: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(224, 175, 216);
+    margin: 20px;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
